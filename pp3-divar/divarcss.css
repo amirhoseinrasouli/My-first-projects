@@ -1,0 +1,136 @@
+@font-face {
+font-family: IRANSans;
+font-style: normal;
+font-weight: normal;
+src: url('fonts/17/IRANSansWeb.ttf') format('truetype');
+}
+
+
+
+body{
+	background-color:rgb(255, 255, 255);
+        font-family: IRANSans;
+        font-size: 1rem;
+        font-weight: 400;
+	direction: rtl;
+
+}
+div.navbar{
+	height:43px;
+}
+img.logo{
+	width:43px;
+	height:43px;
+	margin-left: 2px;
+	margin-right: 8px;
+	padding-left:20px;
+	border-left:1px solid rgb(230, 230, 230);
+        vertical-align: middle;
+
+}
+img.main{
+	display:block;
+	margin-top:0;
+	width:400px;
+	height:400px;
+	border-radius: 5px;
+	
+}
+ul.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  	background-color: rgb(255, 255, 255);
+	border-bottom: 2px solid rgb(230, 230, 230);
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
+	
+}
+
+li.navbar_right {
+  	float: right;
+	padding: 8px;
+	vertical-align: middle;
+}
+li.navbar_left{
+  	float: left;
+	padding: 8px;
+	vertical-align: middle;
+}
+.button_navbar {
+	font-family: IRANSans;
+ 	background-color: rgb(255, 255, 255); 
+	border: none;
+	padding:16px;
+ 	color: rgb(130, 130, 130);
+  	padding: 8px 16px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: .75rem;
+	font-weight: 500;
+  	margin: 1px 8px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+	vertical-align: middle;
+	
+}
+.button_navbar:hover{
+	color: rgb(0,0,0);
+	background-color: rgb(240, 240, 240);
+	     border-radius: 5px;
+}
+.button_navbar_red {
+	font-family: IRANSans;
+ 	background-color:#a62626;
+	border-radius: 5px; 
+	border: none;
+ 	color: rgb(255, 255, 255);
+  	padding: 8px 16px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size:12px;
+	font-weight: 600;
+	
+  	margin: 1px 8px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+input.navbar{
+	background-color: rgb(240, 240, 240);
+	border-style: none;
+	border-radius: 4px;
+	padding:8px;
+	width: 400px;
+	font-size:20px;
+	hight: 500px;
+	
+}
+input.coment{
+	font-size:50px;
+	width: 100%;
+	hight: 500px;
+	margin-top:40px;
+	border-width:1px;
+	border-style: solid ;
+	border-radius: 4px;
+	border-color: rgb(210, 210, 210);
+}
+table.main{
+	width:75%;
+	margin-right:auto;
+	margin-left:auto;
+		
+}
+td.main{
+	dir:rtl;
+	float:right;
+	margin-left:80px;
+}
+i.icons{
+	margin:5px;
+	
+}

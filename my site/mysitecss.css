@@ -1,0 +1,140 @@
+body{
+	font-family:"Audiowide", sans-serif;
+	text-shadow: 2px 2px 2px #ababab;
+	direction:rtl;
+	background-color:rgb(0, 0, 0);
+	Display:flex;
+	Flex-direction:column;
+}
+h1{
+	text-align:center;
+	margin-right:8%;
+	float:right;
+}
+h2{
+	color:#2b2f33;
+	font-size:20px;
+}
+p.code{
+	margin-right:8%;
+	float:right;
+	color:#6c7680;
+	line-height:1px;	
+}
+p{
+	margin-top:10px;
+	color:#6c7680;
+	line-height:10px;
+	text-align: center;	
+}
+p.centertext{
+	color:rgb(255,255,255);
+	font-family: "Audiowide",ans-serif;
+	font-size:30px;
+	padding-top:20px;
+	direction:ltr;
+	
+        top: 0;
+}
+div.main{
+	width:84%;
+	Display:flex;
+	Flex-direction:column;
+	}
+div.holder{
+	width:84%;
+	Display:flex;
+	Flex-direction:row;
+	margin-right:8%;
+	float:right;
+}
+div.head{
+	background-color:#ffffff;
+	border-style:solid;
+	border-color:rgb(230,230,230);
+	border-width: 1px;
+	border-radius:10px;
+	/*width:15%;*/
+	float:right;
+	margin:6px 10px;
+	padding: 1rem 1.25rem;	
+}
+
+img{
+	display:block;
+	margin-left: auto;
+        margin-right: auto;
+	width:100%;
+	filter: blur(5px);
+	z-index: 1;
+	
+	
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    position: fixed;  
+}
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right:16px;
+  font-size: 18px;
+}
+a.head{
+	background-color:rgb(255, 218, 71);
+	text-decoration: none;
+}
+i{
+	color:#6c7680;
+}
+
+ul {
+  list-style-type: none;
+  margin-top:10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+  text-align: center;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color:rgb(20,40,20);
+  background-color: rgb(0, 230, 119);<!--rgb(255, 202, 71);-->
+}
+
+.active {
+  background-color: #00006D;
+}

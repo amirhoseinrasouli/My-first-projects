@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head title="alibaba">
+
+<meta charset="UTF-8">
+<link rel="stylesheet" href="mydreamsitestyle.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body background-img>
+<h1>wellcome to my dream site</h1>
+<div>
+	
+	<a href="PAYMENTPAGE.html" title="payment"> <i class="material-icons" style="">card_giftcard</i></a>
+	<p>Write the amount of money you want to give me</p>
+	
+</div>
+
+
+</body>
+</html>

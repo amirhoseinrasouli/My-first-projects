@@ -1,0 +1,33 @@
+body{
+	background-image:url('background.jpg');
+}
+h1{
+	text-align:center;
+	margin-top:200px;
+	color:rgb(185, 220, 204);
+	font-size:70px;
+	font-family: 'Courier New', monospace;
+}
+p{
+	padding-left:15px;
+	padding-top:40px;
+	color:rgb(190,190,190);
+}
+div{
+	width:500px;
+	height:30px;
+	border-radius:30px;
+	margin-top:200px;
+	margin:auto;
+	background-color:rgb(240,240,240);
+	transition: width 1s;
+}
+div:hover {
+  	width: 700px;
+}
+i{
+	color:rgb(135, 220, 204);
+	float:right;
+	padding-right:10px;
+	padding-top:4px;
+}

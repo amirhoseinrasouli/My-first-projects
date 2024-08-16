@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head title="divar">
+
+<meta charset="UTF-8">
+<link rel="stylesheet" href="divarcss.css">
+</head>
+
+<body>
+
+<div>
+<ul>
+<li><p>amir</p></li>
+<li><p>amir</p></li>
+<li><p>amir</p></li>
+<li><p>amir</p></li>
+<li><p>amir</p></li>
+<li><p>amir</p></li>
+<li><p>amir</p></li>
+<li><p>amir</p></li>
+</ul>
+</div>
+
+</body>
+</html>

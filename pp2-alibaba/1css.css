@@ -1,0 +1,70 @@
+@font-face{
+	font-family:vazir;
+	src: url("fonts/Vazir-Regular.eot");
+	src: url("fonts/Vazir-Regular.woff") format("woff"),
+             url("fonts/Vazir-Regular.woff2") format("woff2"),
+             url("fonts/Vazir-Regular.ttf") format("ttf");
+}
+
+body{
+	font-family:vazir;
+	direction:rtl;
+	background-color:#f6f6f6;
+	Display:flex;
+	Flex-direction:column;
+}
+h1{
+	text-align:right;
+	margin-right:8%;
+	float:right;
+}
+h2{
+	color:#2b2f33;
+	font-size:20px;
+}
+p.code{
+	margin-right:8%;
+	float:right;
+	color:#6c7680;
+	line-height:1px;	
+}
+p{
+	margin-top:2px;
+	color:#6c7680;
+	line-height:0px;	
+}
+div.main{
+	width:84%;
+	Display:flex;
+	Flex-direction:column;
+	}
+div.holder{
+	width:84%;
+	Display:flex;
+	Flex-direction:row;
+	margin-right:8%;
+	float:right;
+}
+div.cart{
+	background-color:#ffffff;
+	border-style:solid;
+	border-color:rgb(230,230,230);
+	border-width: 1px;
+	border-radius:10px;
+	width:15%;
+	float:right;
+	margin:6px 10px;
+	padding: 1rem 1.25rem;	
+}
+
+img{
+	display:block;
+	margin-top:5%;
+	margin-right:8%;
+	float:right;
+  	width:100%;
+	border-radius:10px;
+}
+i{
+	color:#6c7680;
+}
